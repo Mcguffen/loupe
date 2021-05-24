@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法语放大镜🔍loupe</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .loupe {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 1px solid red;
+      border-radius: 50%;
+      position: relative;
+    }
+    .loupe::after {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      border-top: 1px solid blue;
+      position: absolute;
+      bottom: 0;
+      left: 100%;
+      transform: rotate(45deg);
+      margin-left: -3px;
+      margin-bottom: -1px;
+    }
+  </style>
+</head>
+<body>
+  <span class="loupe"></span>
+</body>
+</html>
+
+</body>
+</html>
